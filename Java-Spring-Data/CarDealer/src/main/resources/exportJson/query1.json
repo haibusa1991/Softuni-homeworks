@@ -1,0 +1,1288 @@
+[
+  {
+    "Id": 29,
+    "Name": "Louann Holzworth",
+    "BirthDate": "1960-10-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 81,
+        "Car make": "Seat",
+        "Car model": "Toledo",
+        "Car price": 2232.3,
+        "Sale price": 2120.685
+      },
+      {
+        "Id": 6,
+        "Car make": "Rolls-Royce",
+        "Car model": "Phantom",
+        "Car price": 2541.25,
+        "Sale price": 1524.75
+      },
+      {
+        "Id": 46,
+        "Car make": "Skoda",
+        "Car model": "Fabia",
+        "Car price": 953.54,
+        "Sale price": 667.478
+      },
+      {
+        "Id": 157,
+        "Car make": "Mercedes",
+        "Car model": "A 170 CDI",
+        "Car price": 918.95,
+        "Sale price": 827.0550000000001
+      },
+      {
+        "Id": 54,
+        "Car make": "BMW",
+        "Car model": "M6 E63",
+        "Car price": 342.89,
+        "Sale price": 0.0
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "Name": "Donnetta Soliz",
+    "BirthDate": "1963-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 131,
+        "Car make": "Peugeot",
+        "Car model": "206",
+        "Car price": 1622.32,
+        "Sale price": 811.16
+      },
+      {
+        "Id": 64,
+        "Car make": "Peugeot",
+        "Car model": "206",
+        "Car price": 494.88,
+        "Sale price": 445.392
+      },
+      {
+        "Id": 17,
+        "Car make": "Renault",
+        "Car model": "Captur",
+        "Car price": 342.31,
+        "Sale price": 171.155
+      },
+      {
+        "Id": 67,
+        "Car make": "Skoda",
+        "Car model": "Citigo",
+        "Car price": 345.45,
+        "Sale price": 207.26999999999998
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "Name": "Rema Revelle",
+    "BirthDate": "1970-05-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 101,
+        "Car make": "Dacia",
+        "Car model": "Sandero",
+        "Car price": 456.56000000000006,
+        "Sale price": 319.59200000000004
+      },
+      {
+        "Id": 18,
+        "Car make": "Fiat",
+        "Car model": "500L",
+        "Car price": 646.95,
+        "Sale price": 614.6025
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "Name": "Carri Knapik",
+    "BirthDate": "1972-02-02T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": []
+  },
+  {
+    "Id": 27,
+    "Name": "Garret Capron",
+    "BirthDate": "1975-07-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 181,
+        "Car make": "Opel",
+        "Car model": "Astra",
+        "Car price": 2330.8799999999997,
+        "Sale price": 2097.792
+      },
+      {
+        "Id": 134,
+        "Car make": "Chevy",
+        "Car model": "Camaro",
+        "Car price": 19.32,
+        "Sale price": 15.456000000000001
+      },
+      {
+        "Id": 92,
+        "Car make": "Peugeot",
+        "Car model": "306",
+        "Car price": 704.97,
+        "Sale price": 669.7215
+      },
+      {
+        "Id": 11,
+        "Car make": "Dacia",
+        "Car model": "Sandero",
+        "Car price": 317.27,
+        "Sale price": 190.362
+      },
+      {
+        "Id": 140,
+        "Car make": "Opel",
+        "Car model": "Astra",
+        "Car price": 685.88,
+        "Sale price": 342.94
+      },
+      {
+        "Id": 93,
+        "Car make": "Mercedes",
+        "Car model": "W202",
+        "Car price": 431.96000000000004,
+        "Sale price": 215.98000000000002
+      },
+      {
+        "Id": 42,
+        "Car make": "Citroen",
+        "Car model": "C1",
+        "Car price": 296.96,
+        "Sale price": 0.0
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "Teddy Hobby",
+    "BirthDate": "1975-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 76,
+        "Car make": "BMW",
+        "Car model": "M5 F10",
+        "Car price": 672.3199999999999,
+        "Sale price": 638.704
+      },
+      {
+        "Id": 22,
+        "Car make": "Ford",
+        "Car model": "Pinto",
+        "Car price": 298.97,
+        "Sale price": 239.17600000000004
+      },
+      {
+        "Id": 73,
+        "Car make": "Mercedes",
+        "Car model": "W124",
+        "Car price": 261.46000000000004,
+        "Sale price": 209.16800000000003
+      },
+      {
+        "Id": 113,
+        "Car make": "Citroen",
+        "Car model": "Elysée",
+        "Car price": 774.36,
+        "Sale price": 464.616
+      },
+      {
+        "Id": 48,
+        "Car make": "BMW",
+        "Car model": "F25",
+        "Car price": 261.88,
+        "Sale price": 235.692
+      },
+      {
+        "Id": 28,
+        "Car make": "Opel",
+        "Car model": "Omega",
+        "Car price": 423.45,
+        "Sale price": 254.07
+      },
+      {
+        "Id": 74,
+        "Car make": "Peugeot",
+        "Car model": "407",
+        "Car price": 312.53999999999996,
+        "Sale price": 0.0
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "Audrea Cardinal",
+    "BirthDate": "1976-10-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 38,
+        "Car make": "Dacia",
+        "Car model": "Dokker",
+        "Car price": 521.95,
+        "Sale price": 443.6575
+      },
+      {
+        "Id": 138,
+        "Car make": "Nissan",
+        "Car model": "Versa",
+        "Car price": 672.3,
+        "Sale price": 537.84
+      },
+      {
+        "Id": 112,
+        "Car make": "Chevy",
+        "Car model": "Corvette",
+        "Car price": 353.96,
+        "Sale price": 300.866
+      },
+      {
+        "Id": 162,
+        "Car make": "Citroen",
+        "Car model": "C5",
+        "Car price": 1308.95,
+        "Sale price": 1047.16
+      },
+      {
+        "Id": 146,
+        "Car make": "Chevy",
+        "Car model": "Malibu",
+        "Car price": 794.94,
+        "Sale price": 675.6990000000001
+      },
+      {
+        "Id": 37,
+        "Car make": "Ferrari",
+        "Car model": "275",
+        "Car price": 446.18,
+        "Sale price": 423.871
+      },
+      {
+        "Id": 121,
+        "Car make": "Toyota",
+        "Car model": "Tacoma",
+        "Car price": 497.39000000000004,
+        "Sale price": 248.69500000000002
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "Name": "Francis Mckim",
+    "BirthDate": "1977-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 33,
+        "Car make": "Chevy",
+        "Car model": "Matiz",
+        "Car price": 2502.97,
+        "Sale price": 1752.0789999999997
+      },
+      {
+        "Id": 100,
+        "Car make": "Seat",
+        "Car model": "Mii",
+        "Car price": 526.27,
+        "Sale price": 447.3295
+      },
+      {
+        "Id": 165,
+        "Car make": "Mercedes",
+        "Car model": "A 140",
+        "Car price": 275.97,
+        "Sale price": 165.58200000000002
+      },
+      {
+        "Id": 89,
+        "Car make": "Toyota",
+        "Car model": "Prius",
+        "Car price": 4315.299999999999,
+        "Sale price": 4099.534999999999
+      },
+      {
+        "Id": 167,
+        "Car make": "Ferrari",
+        "Car model": "250 GTO",
+        "Car price": 307.9,
+        "Sale price": 184.73999999999998
+      },
+      {
+        "Id": 86,
+        "Car make": "Renault",
+        "Car model": "Alaskan",
+        "Car price": 1535.8600000000001,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 152,
+        "Car make": "Seat",
+        "Car model": "Toledo",
+        "Car price": 2222.87,
+        "Sale price": 2111.7264999999998
+      },
+      {
+        "Id": 1,
+        "Car make": "Ford",
+        "Car model": "Fiesta",
+        "Car price": 408.95,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 166,
+        "Car make": "Skoda",
+        "Car model": "Fabia",
+        "Car price": 560.96,
+        "Sale price": 392.672
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "Name": "Brett Brickley",
+    "BirthDate": "1980-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 122,
+        "Car make": "Lamborghini",
+        "Car model": "Gallardo",
+        "Car price": 437.63,
+        "Sale price": 306.34099999999995
+      },
+      {
+        "Id": 126,
+        "Car make": "Toyota",
+        "Car model": "Prius",
+        "Car price": 192.46,
+        "Sale price": 96.23
+      },
+      {
+        "Id": 7,
+        "Car make": "Rolls-Royce",
+        "Car model": "Phantom Drophead Coupé",
+        "Car price": 348.79,
+        "Sale price": 209.274
+      },
+      {
+        "Id": 56,
+        "Car make": "Opel",
+        "Car model": "Vectra",
+        "Car price": 232.88,
+        "Sale price": 0.0
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "Name": "Kristian Engberg",
+    "BirthDate": "1981-10-03T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": []
+  },
+  {
+    "Id": 26,
+    "Name": "Hipolito Lamoreaux",
+    "BirthDate": "1982-08-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 44,
+        "Car make": "Renault",
+        "Car model": "Captur",
+        "Car price": 469.32,
+        "Sale price": 328.524
+      },
+      {
+        "Id": 19,
+        "Car make": "Ferrari",
+        "Car model": "F430",
+        "Car price": 702.97,
+        "Sale price": 632.673
+      },
+      {
+        "Id": 94,
+        "Car make": "Opel",
+        "Car model": "Omega",
+        "Car price": 603.89,
+        "Sale price": 362.334
+      },
+      {
+        "Id": 62,
+        "Car make": "Fiat",
+        "Car model": "500L",
+        "Car price": 1516.55,
+        "Sale price": 1213.24
+      },
+      {
+        "Id": 2,
+        "Car make": "Dacia",
+        "Car model": "Sandero",
+        "Car price": 5267.24,
+        "Sale price": 3160.3439999999996
+      },
+      {
+        "Id": 135,
+        "Car make": "Peugeot",
+        "Car model": "206",
+        "Car price": 128.97,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 142,
+        "Car make": "Seat",
+        "Car model": "Ibiza",
+        "Car price": 2408.96,
+        "Sale price": 0.0
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Zada Attwood",
+    "BirthDate": "1982-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 159,
+        "Car make": "Citroen",
+        "Car model": "C1",
+        "Car price": 572.88,
+        "Sale price": 458.30400000000003
+      },
+      {
+        "Id": 118,
+        "Car make": "Nissan",
+        "Car model": "Altima",
+        "Car price": 2562.3199999999997,
+        "Sale price": 2434.2039999999997
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "Name": "Sylvie Mcelravy",
+    "BirthDate": "1983-10-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 65,
+        "Car make": "Nissan",
+        "Car model": "GT-R",
+        "Car price": 1972.96,
+        "Sale price": 986.48
+      },
+      {
+        "Id": 21,
+        "Car make": "Citroen",
+        "Car model": "C5",
+        "Car price": 484.08000000000004,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 45,
+        "Car make": "Citroen",
+        "Car model": "C5",
+        "Car price": 154.32,
+        "Sale price": 77.16
+      },
+      {
+        "Id": 4,
+        "Car make": "Alfa Romeo",
+        "Car model": "Giulietta",
+        "Car price": 402.76,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 129,
+        "Car make": "Toyota",
+        "Car model": "Corolla",
+        "Car price": 298.97,
+        "Sale price": 179.382
+      },
+      {
+        "Id": 39,
+        "Car make": "Chevy",
+        "Car model": "Camaro",
+        "Car price": 290.31,
+        "Sale price": 174.186
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "Rico Peer",
+    "BirthDate": "1984-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": []
+  },
+  {
+    "Id": 5,
+    "Name": "Hai Everton",
+    "BirthDate": "1985-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 40,
+        "Car make": "Alfa Romeo",
+        "Car model": "Alfetta",
+        "Car price": 4235.95,
+        "Sale price": 2541.5699999999997
+      },
+      {
+        "Id": 175,
+        "Car make": "Toyota",
+        "Car model": "Prius",
+        "Car price": 543.75,
+        "Sale price": 326.25
+      },
+      {
+        "Id": 53,
+        "Car make": "Alfa Romeo",
+        "Car model": "75",
+        "Car price": 276.56,
+        "Sale price": 193.59199999999998
+      },
+      {
+        "Id": 14,
+        "Car make": "Toyota",
+        "Car model": "Camry Hybrid",
+        "Car price": 2162.97,
+        "Sale price": 1081.485
+      },
+      {
+        "Id": 125,
+        "Car make": "Fiat",
+        "Car model": "500L",
+        "Car price": 2034.31,
+        "Sale price": 1220.586
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Lino Subia",
+    "BirthDate": "1985-12-21T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 178,
+        "Car make": "Dacia",
+        "Car model": "Logan",
+        "Car price": 1433.96,
+        "Sale price": 1218.866
+      },
+      {
+        "Id": 149,
+        "Car make": "Toyota",
+        "Car model": "Camry Hybrid",
+        "Car price": 2141.3,
+        "Sale price": 1820.105
+      },
+      {
+        "Id": 123,
+        "Car make": "Seat",
+        "Car model": "Mii",
+        "Car price": 501.94000000000005,
+        "Sale price": 351.358
+      },
+      {
+        "Id": 23,
+        "Car make": "BMW",
+        "Car model": "1M Coupe",
+        "Car price": 346.98,
+        "Sale price": 242.886
+      },
+      {
+        "Id": 25,
+        "Car make": "Nissan",
+        "Car model": "GT-R",
+        "Car price": 673.97,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 8,
+        "Car make": "Toyota",
+        "Car model": "Prius",
+        "Car price": 686.97,
+        "Sale price": 549.576
+      },
+      {
+        "Id": 72,
+        "Car make": "Lamborghini",
+        "Car model": "Diablo",
+        "Car price": 269.23,
+        "Sale price": 188.461
+      },
+      {
+        "Id": 57,
+        "Car make": "BMW",
+        "Car model": "M Roadster E85",
+        "Car price": 402.23,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 91,
+        "Car make": "Toyota",
+        "Car model": "Camry Hybrid",
+        "Car price": 1645.2199999999998,
+        "Sale price": 987.1319999999998
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "Name": "Jimmy Grossi",
+    "BirthDate": "1986-07-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 110,
+        "Car make": "Alfa Romeo",
+        "Car model": "75",
+        "Car price": 3341.2599999999998,
+        "Sale price": 1670.6299999999999
+      },
+      {
+        "Id": 133,
+        "Car make": "Chevy",
+        "Car model": "Impala",
+        "Car price": 2733.9699999999993,
+        "Sale price": 1913.7789999999993
+      },
+      {
+        "Id": 36,
+        "Car make": "Ford",
+        "Car model": "Fiesta",
+        "Car price": 232.38,
+        "Sale price": 116.19
+      },
+      {
+        "Id": 29,
+        "Car make": "Nissan",
+        "Car model": "370Z",
+        "Car price": 441.25,
+        "Sale price": 220.625
+      },
+      {
+        "Id": 69,
+        "Car make": "Ford",
+        "Car model": "Torino",
+        "Car price": 1497.3,
+        "Sale price": 1048.11
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "Name": "Carole Witman",
+    "BirthDate": "1987-10-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 31,
+        "Car make": "BMW",
+        "Car model": "M6 E63",
+        "Car price": 228.32,
+        "Sale price": 136.992
+      },
+      {
+        "Id": 41,
+        "Car make": "Toyota",
+        "Car model": "Prius",
+        "Car price": 265.97,
+        "Sale price": 212.77600000000004
+      },
+      {
+        "Id": 26,
+        "Car make": "Lamborghini",
+        "Car model": "Gallardo",
+        "Car price": 838.61,
+        "Sale price": 796.6795
+      },
+      {
+        "Id": 58,
+        "Car make": "Toyota",
+        "Car model": "Tacoma",
+        "Car price": 814.96,
+        "Sale price": 488.976
+      },
+      {
+        "Id": 79,
+        "Car make": "Great Wall",
+        "Car model": "Wingle 5",
+        "Car price": 315.97,
+        "Sale price": 284.37300000000005
+      },
+      {
+        "Id": 177,
+        "Car make": "Citroen",
+        "Car model": "C8",
+        "Car price": 4190.3,
+        "Sale price": 3980.785
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "Name": "Oren Perlman",
+    "BirthDate": "1988-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 128,
+        "Car make": "Ford",
+        "Car model": "Fiesta",
+        "Car price": 1592.6499999999999,
+        "Sale price": 1114.8549999999998
+      },
+      {
+        "Id": 10,
+        "Car make": "Opel",
+        "Car model": "Corsa",
+        "Car price": 4215.969999999999,
+        "Sale price": 3794.3729999999996
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Marcelle Griego",
+    "BirthDate": "1990-10-04T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 30,
+        "Car make": "Fiat",
+        "Car model": "500L",
+        "Car price": 694.97,
+        "Sale price": 555.976
+      },
+      {
+        "Id": 114,
+        "Car make": "Fiat",
+        "Car model": "Freemont",
+        "Car price": 438.96,
+        "Sale price": 263.376
+      },
+      {
+        "Id": 102,
+        "Car make": "Chevy",
+        "Car model": "Cruze",
+        "Car price": 1477.8400000000001,
+        "Sale price": 1330.0560000000003
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Natalie Poli",
+    "BirthDate": "1990-10-04T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 132,
+        "Car make": "Alfa Romeo",
+        "Car model": "156",
+        "Car price": 355.32000000000005,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 12,
+        "Car make": "Nissan",
+        "Car model": "Rogue",
+        "Car price": 441.95,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 51,
+        "Car make": "Peugeot",
+        "Car model": "306",
+        "Car price": 1557.95,
+        "Sale price": 778.975
+      },
+      {
+        "Id": 148,
+        "Car make": "Dacia",
+        "Car model": "Logan",
+        "Car price": 188.91,
+        "Sale price": 151.12800000000001
+      },
+      {
+        "Id": 182,
+        "Car make": "Opel",
+        "Car model": "Corsa",
+        "Car price": 302.66,
+        "Sale price": 151.33
+      },
+      {
+        "Id": 96,
+        "Car make": "BMW",
+        "Car model": "M6 E63",
+        "Car price": 420.3,
+        "Sale price": 357.255
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "Name": "Yvonne Mccalla",
+    "BirthDate": "1992-03-02T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 3,
+        "Car make": "Ferrari",
+        "Car model": "Daytona",
+        "Car price": 1201.64,
+        "Sale price": 841.148
+      },
+      {
+        "Id": 15,
+        "Car make": "Fiat",
+        "Car model": "500 (2007) Abarth 695 Tributo Maserati",
+        "Car price": 242.24,
+        "Sale price": 230.128
+      },
+      {
+        "Id": 20,
+        "Car make": "Citroen",
+        "Car model": "Berlingo",
+        "Car price": 332.97,
+        "Sale price": 316.3215
+      },
+      {
+        "Id": 97,
+        "Car make": "Nissan",
+        "Car model": "Altima",
+        "Car price": 279.77,
+        "Sale price": 139.885
+      },
+      {
+        "Id": 50,
+        "Car make": "Alfa Romeo",
+        "Car model": "164",
+        "Car price": 442.77,
+        "Sale price": 221.385
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "Name": "Ann Mcenaney",
+    "BirthDate": "1992-03-02T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": []
+  },
+  {
+    "Id": 21,
+    "Name": "Cinthia Lasala",
+    "BirthDate": "1992-11-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 179,
+        "Car make": "Citroen",
+        "Car model": "C8",
+        "Car price": 302.96999999999997,
+        "Sale price": 212.07899999999998
+      },
+      {
+        "Id": 145,
+        "Car make": "Toyota",
+        "Car model": "Corolla",
+        "Car price": 466.25,
+        "Sale price": 326.375
+      },
+      {
+        "Id": 68,
+        "Car make": "Renault",
+        "Car model": "Alaskan",
+        "Car price": 2046.97,
+        "Sale price": 1944.6215
+      },
+      {
+        "Id": 120,
+        "Car make": "Toyota",
+        "Car model": "Tacoma",
+        "Car price": 1175.92,
+        "Sale price": 587.96
+      },
+      {
+        "Id": 171,
+        "Car make": "Mercedes",
+        "Car model": "W203",
+        "Car price": 1506.95,
+        "Sale price": 1431.6025
+      },
+      {
+        "Id": 13,
+        "Car make": "Ford",
+        "Car model": "Fiesta",
+        "Car price": 1683.22,
+        "Sale price": 1009.932
+      },
+      {
+        "Id": 5,
+        "Car make": "Toyota",
+        "Car model": "Camry Hybrid",
+        "Car price": 768.94,
+        "Sale price": 384.47
+      },
+      {
+        "Id": 16,
+        "Car make": "Seat",
+        "Car model": "Mii",
+        "Car price": 1290.22,
+        "Sale price": 1096.687
+      },
+      {
+        "Id": 55,
+        "Car make": "Citroen",
+        "Car model": "C5",
+        "Car price": 1951.98,
+        "Sale price": 1366.386
+      },
+      {
+        "Id": 144,
+        "Car make": "Rolls-Royce",
+        "Car model": "Phantom Drophead Coupé",
+        "Car price": 349.98,
+        "Sale price": 244.986
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "Emmitt Benally",
+    "BirthDate": "1993-11-20T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 180,
+        "Car make": "Ford",
+        "Car model": "Ranger",
+        "Car price": 458.87,
+        "Sale price": 321.209
+      },
+      {
+        "Id": 98,
+        "Car make": "Citroen",
+        "Car model": "C1",
+        "Car price": 626.95,
+        "Sale price": 313.475
+      },
+      {
+        "Id": 153,
+        "Car make": "Ford",
+        "Car model": "Taurus",
+        "Car price": 1622.31,
+        "Sale price": 811.155
+      },
+      {
+        "Id": 111,
+        "Car make": "Chevy",
+        "Car model": "Camaro",
+        "Car price": 446.96,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 147,
+        "Car make": "Skoda",
+        "Car model": "Rapid",
+        "Car price": 1767.75,
+        "Sale price": 883.875
+      },
+      {
+        "Id": 141,
+        "Car make": "Dacia",
+        "Car model": "Sandero Stepway",
+        "Car price": 268.4,
+        "Sale price": 134.2
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "Name": "Nisha Markwell",
+    "BirthDate": "1994-04-04T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 85,
+        "Car make": "Rolls-Royce",
+        "Car model": "Ghost",
+        "Car price": 325.97,
+        "Sale price": 277.0745
+      },
+      {
+        "Id": 71,
+        "Car make": "Lamborghini",
+        "Car model": "Murciélago",
+        "Car price": 463.96,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 164,
+        "Car make": "BMW",
+        "Car model": "F04",
+        "Car price": 250.63,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 43,
+        "Car make": "Toyota",
+        "Car model": "Yaris",
+        "Car price": 307.95000000000005,
+        "Sale price": 215.56500000000003
+      },
+      {
+        "Id": 83,
+        "Car make": "Nissan",
+        "Car model": "370Z",
+        "Car price": 288.96,
+        "Sale price": 245.61599999999999
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "Name": "Faustina Burgher",
+    "BirthDate": "1994-06-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 66,
+        "Car make": "Nissan",
+        "Car model": "GT-R",
+        "Car price": 1420.31,
+        "Sale price": 852.1859999999999
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "Name": "Taina Achenbach",
+    "BirthDate": "1994-10-01T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 9,
+        "Car make": "Ferrari",
+        "Car model": "250 GTO",
+        "Car price": 1254.26,
+        "Sale price": 1128.834
+      },
+      {
+        "Id": 151,
+        "Car make": "Chevy",
+        "Car model": "Camaro",
+        "Car price": 352.46000000000004,
+        "Sale price": 211.47600000000003
+      },
+      {
+        "Id": 185,
+        "Car make": "Fiat",
+        "Car model": "Panda 4x4 Antarctica",
+        "Car price": 1114.96,
+        "Sale price": 780.472
+      },
+      {
+        "Id": 49,
+        "Car make": "Mercedes",
+        "Car model": "W124",
+        "Car price": 1726.32,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 116,
+        "Car make": "Citroen",
+        "Car model": "C5",
+        "Car price": 125.89999999999999,
+        "Sale price": 100.72
+      },
+      {
+        "Id": 168,
+        "Car make": "Skoda",
+        "Car model": "Citigo",
+        "Car price": 1406.31,
+        "Sale price": 703.155
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Johnette Derryberry",
+    "BirthDate": "1995-10-01T00:00:00",
+    "IsYoungDriver": true,
+    "Sales": [
+      {
+        "Id": 103,
+        "Car make": "Peugeot",
+        "Car model": "405",
+        "Car price": 1375.3,
+        "Sale price": 962.7099999999999
+      },
+      {
+        "Id": 158,
+        "Car make": "Rolls-Royce",
+        "Car model": "Phantom Drophead Coupé",
+        "Car price": 590.5500000000001,
+        "Sale price": 354.33000000000004
+      },
+      {
+        "Id": 156,
+        "Car make": "Seat",
+        "Car model": "Ibiza",
+        "Car price": 1042.8,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 34,
+        "Car make": "Fiat",
+        "Car model": "Panda 4x4",
+        "Car price": 242.97,
+        "Sale price": 170.07899999999998
+      },
+      {
+        "Id": 82,
+        "Car make": "Skoda",
+        "Car model": "Fabia",
+        "Car price": 2157.2999999999997,
+        "Sale price": 1510.1099999999997
+      },
+      {
+        "Id": 32,
+        "Car make": "Rolls-Royce",
+        "Car model": "Dawn",
+        "Car price": 190.91,
+        "Sale price": 133.637
+      },
+      {
+        "Id": 137,
+        "Car make": "Peugeot",
+        "Car model": "308",
+        "Car price": 1086.95,
+        "Sale price": 0.0
+      },
+      {
+        "Id": 173,
+        "Car make": "Peugeot",
+        "Car model": "407",
+        "Car price": 1706.32,
+        "Sale price": 1621.004
+      },
+      {
+        "Id": 115,
+        "Car make": "Ford",
+        "Car model": "GT40",
+        "Car price": 654.22,
+        "Sale price": 556.087
+      },
+      {
+        "Id": 70,
+        "Car make": "Chevy",
+        "Car model": "Caprice",
+        "Car price": 285.97,
+        "Sale price": 257.37300000000005
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "Name": "Daniele Zarate",
+    "BirthDate": "1995-10-05T00:00:00",
+    "IsYoungDriver": false,
+    "Sales": [
+      {
+        "Id": 106,
+        "Car make": "Fiat",
+        "Car model": "500 (2007) Abarth 695 Tributo Maserati",
+        "Car price": 386.97,
+        "Sale price": 328.9245
+      },
+      {
+        "Id": 99,
+        "Car make": "Ferrari",
+        "Car model": "275",
+        "Car price": 395.95000000000005,
+        "Sale price": 237.57000000000002
+      },
+      {
+        "Id": 78,
+        "Car make": "BMW",
+        "Car model": "F04",
+        "Car price": 1370.25,
+        "Sale price": 959.175
+      },
+      {
+        "Id": 61,
+        "Car make": "Mercedes",
+        "Car model": "A 160 CDI",
+        "Car price": 284.91,
+        "Sale price": 142.455
+      },
+      {
+        "Id": 127,
+        "Car make": "Ferrari",
+        "Car model": "Daytona",
+        "Car price": 482.62,
+        "Sale price": 241.31
+      },
+      {
+        "Id": 136,
+        "Car make": "Great Wall",
+        "Car model": "Haval H6",
+        "Car price": 498.88,
+        "Sale price": 249.44
+      },
+      {
+        "Id": 108,
+        "Car make": "Toyota",
+        "Car model": "Camry Hybrid",
+        "Car price": 184.53,
+        "Sale price": 129.171
+      },
+      {
+        "Id": 143,
+        "Car make": "Nissan",
+        "Car model": "Altima",
+        "Car price": 250.07,
+        "Sale price": 212.55949999999999
+      },
+      {
+        "Id": 130,
+        "Car make": "Great Wall",
+        "Car model": "Haval M4",
+        "Car price": 299.37,
+        "Sale price": 179.62199999999999
+      },
+      {
+        "Id": 119,
+        "Car make": "Ferrari",
+        "Car model": "F430",
+        "Car price": 684.94,
+        "Sale price": 582.1990000000001
+      },
+      {
+        "Id": 87,
+        "Car make": "Mercedes",
+        "Car model": "W204",
+        "Car price": 309.57,
+        "Sale price": 278.613
+      }
+    ]
+  }
+]

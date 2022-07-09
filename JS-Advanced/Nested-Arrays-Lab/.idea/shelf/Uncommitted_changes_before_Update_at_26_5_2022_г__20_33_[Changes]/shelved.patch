@@ -1,0 +1,119 @@
+Index: ../Syntax, Functions and Statements - Lab/.idea/misc.xml
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/misc.xml b/../Syntax, Functions and Statements - Lab/.idea/misc.xml
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/misc.xml	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Syntax, Functions and Statements - Lab/.idea/modules.xml
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/modules.xml b/../Syntax, Functions and Statements - Lab/.idea/modules.xml
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/modules.xml	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/Syntax, Functions and Statements - Lab.iml" filepath="$PROJECT_DIR$/.idea/Syntax, Functions and Statements - Lab.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Syntax, Functions and Statements - Exercise/.idea/.gitignore
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Exercise/.idea/.gitignore b/../Syntax, Functions and Statements - Exercise/.idea/.gitignore
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Exercise/.idea/.gitignore	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+Index: ../Syntax, Functions and Statements - Lab/.idea/.gitignore
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/.gitignore b/../Syntax, Functions and Statements - Lab/.idea/.gitignore
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/.gitignore	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
+Index: ../.gitignore
+===================================================================
+diff --git a/../.gitignore b/../.gitignore
+deleted file mode 100644
+--- a/../.gitignore	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,1 +0,0 @@
+-/Introduction-to-HTML-Lab/L1_01_Navigation-Bar/.idea/
+Index: ../Syntax, Functions and Statements - Lab/.idea/Syntax, Functions and Statements - Lab.iml
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/Syntax, Functions and Statements - Lab.iml b/../Syntax, Functions and Statements - Lab/.idea/Syntax, Functions and Statements - Lab.iml
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/Syntax, Functions and Statements - Lab.iml	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ../Syntax, Functions and Statements - Lab/.idea/runConfigurations.xml
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/runConfigurations.xml b/../Syntax, Functions and Statements - Lab/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/runConfigurations.xml	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: ../Syntax, Functions and Statements - Lab/.idea/vcs.xml
+===================================================================
+diff --git a/../Syntax, Functions and Statements - Lab/.idea/vcs.xml b/../Syntax, Functions and Statements - Lab/.idea/vcs.xml
+deleted file mode 100644
+--- a/../Syntax, Functions and Statements - Lab/.idea/vcs.xml	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
++++ /dev/null	(revision e3962117946c68425e1d39d910e77d7f5b7cb6fc)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+diff --git a/01-EvenPositionElement.js b/01-EvenPositionElement.js
+new file mode 100644

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helverica", sans-serif;
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+article header{
+    font-style: italic;
+}

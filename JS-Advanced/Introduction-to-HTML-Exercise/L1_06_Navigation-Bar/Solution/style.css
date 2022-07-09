@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav {
+    background: #D3D3D3;
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #009900;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #009900;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica",sans-serif;
+}
+
+div {
+    text-align: center;
+    background: #E6E5E5;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+ol {
+    display: inline-block;
+    list-style-position: outside;
+    padding: 0 50px 30px 50px;
+    margin: 0;
+    text-align: left;
+}
+
+ol li {
+    padding: 8px 50px 0 0;
+border-bottom: 1px solid black;
+    text-align: left;
+
+}
+
+

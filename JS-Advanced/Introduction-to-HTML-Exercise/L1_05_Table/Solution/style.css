@@ -1,0 +1,21 @@
+body{
+    font-family: "Helvetica",sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px  5px;
+}
+
+th{
+    width: 65px;
+}
+
+thead {
+    text-align: center;
+}
+
+tbody,tfoot{
+text-align: right;
+}

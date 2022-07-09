@@ -1,0 +1,157 @@
+/*F9690E - orange*/
+/*F0F1F5 - gray */
+body {
+    margin: 0;
+    background: #F0F1F5;
+    font-family: "Helvetica", sans-serif;
+}
+
+header, main, footer {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    display: block;
+    color: #F9690E;
+}
+
+header i {
+    float: left;
+    margin: 0;
+    padding: 25px 0;
+    font-size: 30px;
+}
+
+header p {
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    padding: 30px 10px;
+}
+
+header nav {
+    padding: 30px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #F9690E;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background: #F9690E;
+    border-radius: 5px;
+}
+
+main {
+    background-image: url('../Requirements-and-Resources/Images/picture.jpg');
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+main section:first-child {
+    text-align: center;
+    height: 562px;
+}
+
+main section p:first-child {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 250px 300px 20px 100px;
+    text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+main section p span:first-child {
+    color: #F9690E;
+    text-shadow: none;
+}
+
+main section button {
+    background: #F9690E;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 0;
+}
+
+main section button:hover {
+    background: white;
+    color: #F9690E;
+    cursor: pointer;
+}
+
+main section:nth-child(2) {
+    color: white;
+    width: 100%;
+    text-align: justify;
+}
+
+main section:nth-child(2) article {
+    display: inline-block;
+    color: white;
+    background: #F9690E;
+    width: 33%;
+}
+
+main section:nth-child(2) article a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 20px 0 0 0;
+}
+
+main section:nth-child(2) article a:hover {
+    text-decoration: underline;
+}
+
+main section:nth-child(2) article p {
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+footer{
+    padding-top: 30px ;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+footer section{
+    float: right;
+}
+
+footer section a {
+    color: #F9690E;
+    padding:10px 15px;
+    font-size: x-large;
+}
+
+footer section a:hover {
+    color: white;
+    background: #F9690E;
+    border-radius: 5px;
+}
+

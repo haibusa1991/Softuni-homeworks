@@ -1,0 +1,41 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+i {
+    color: black;
+    font-size: 48px;
+    background: lightgray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+a {
+    border-radius: 50%;
+}
+
+.fa-square-facebook:hover {
+    color: darkblue;
+}
+
+.fa-twitter:hover {
+    color: deepskyblue;
+}
+.fa-google-plus:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: dodgerblue;
+}
+
+.fa-instagram:hover {
+    color: mediumpurple;
+}

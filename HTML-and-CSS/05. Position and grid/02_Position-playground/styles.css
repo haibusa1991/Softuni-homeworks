@@ -1,0 +1,44 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(90deg, rgba(0, 83, 97, 1) 0%, rgba(9, 121, 114, 1) 35%, rgba(0, 212, 255, 1) 100%)
+}
+
+
+.viewport:nth-child(2) {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.card {
+    display: block;
+    position: absolute;
+
+}
+
+.viewport {
+    position: relative;
+    height: 50vh;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+section i {
+    color: white;
+    transform: translateX(-3.5vh) translateY(-1vh);
+    font-size: 2vh;
+}
+
+div section img {
+    width: 30vh;
+}

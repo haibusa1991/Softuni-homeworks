@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expanding Flex Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section class="container">
+    <img class="item" src="images/Image1.jpg" alt="Image1">
+    <img class="item" src="images/Image2.jpg" alt="Image2">
+    <img class="item" src="images/Image3.jpg" alt="Image3">
+    <img class="item" src="images/Image4.jpg" alt="Image4">
+</section>
+</body>
+
+<script>
+    let items = document.querySelectorAll("img.item");
+    items.forEach(e => e.addEventListener("click", onActivate));
+
+    function onActivate(e) {
+        let shouldDeactivate = e.target.classList.contains("active");
+        items.forEach(e => e.classList.remove("active"));
+        if (!shouldDeactivate) {
+            e.target.classList.add("active");
+        }
+    }
+</script>
+</html>

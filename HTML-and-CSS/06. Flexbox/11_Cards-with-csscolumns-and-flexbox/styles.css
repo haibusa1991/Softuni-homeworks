@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: rgb(238, 238, 238);
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 64px;
+}
+
+.cards-layout {
+    margin: 0 auto;
+    width: 950px;
+    height: 1700px;
+}
+
+.layout-description {
+    text-align: center;
+    height: 48px;
+    font-family: Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    justify-content: start;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__info {
+    padding: 16px;
+    font-family: "Calibri Light", sans-serif;
+}
+
+.card__info h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.card__divider {
+    content: "";
+    background-color: var(--color-background);
+    height: 2px;
+    width: 100%;
+    align-self: end;
+}
+
+.card__footer {
+    height: 80px;
+    padding: 16px;
+    align-self: end;
+    margin: 0 auto;
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+}

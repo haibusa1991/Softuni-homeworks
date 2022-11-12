@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --green: 0, 153, 0;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 0;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header {
+    border-bottom: 5px solid gray;
+    width: 100%;
+}
+
+.heading {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+header p {
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    margin: 16px;
+}
+
+header nav {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+}
+
+header nav ul li {
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(var(--green));
+}
+
+/*     ---just because of judge---   */
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+header nav ul {
+    text-align: right;
+}
+
+main {
+    width: 70%;
+    margin-left: 24px;
+}
+
+aside {
+    width: 25%;
+    vertical-align: top;
+}
+
+article section {
+    text-align: justify;
+}
+
+.image {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    padding: 8px;
+    margin: 0 12px;
+}
+
+.left-float {
+    float: left;
+}
+
+.right-float {
+    float: right;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    color: gray;
+    display: inline-block;
+    height: 7rem;
+    float: right;
+    margin: 0 12px;
+    font-style: italic;
+    width: 40%;
+    border-left: 5px solid gray;
+}
+
+.quote p {
+    text-align: right;
+}

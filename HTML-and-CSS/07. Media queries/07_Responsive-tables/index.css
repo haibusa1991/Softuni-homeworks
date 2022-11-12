@@ -1,0 +1,44 @@
+@import "reset.css";
+@import "style-table.css";
+
+:root {
+    --font-size-mobile: 10px;
+    --font-size-tablet: 16px;
+    --font-size-desktop: 20px;
+
+    --color-dark-gray: #3c3c3c;
+    --color-light-gray: #eeeeee;
+    --color-background: #eeeeee;
+    --color-border: #5e5e5e;
+    --color-white: #ffffff;
+
+    --table-border: 1px solid var(--color-border);
+}
+
+html {
+    font-size: var(--font-size-mobile);
+}
+
+body {
+    padding: 2rem 1rem 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    background-color: var(--color-background);
+}
+
+#table {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: var(--font-size-tablet);
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html {
+        font-size: var(--font-size-desktop);
+    }
+}

@@ -1,0 +1,44 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+
+article {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    flex-direction: column;
+    border: 3px solid lightgray;
+    margin: 50px auto;
+    align-items: end;
+    transition: all 200ms ease-in-out;
+}
+
+#close-button {
+    transform: translate(16px, -16px);
+    height: 32px;
+    width: 32px;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100%;
+}
+
+
+#close-button i {
+    transform: rotateZ(45deg);
+    transition: all 150ms ease-in-out;
+    font-size: 20px;
+    width: 32px;
+    line-height: 32px;
+}
+
+#close-button:hover{
+    background-color: darkgray;
+}
+
+#close-button i.rotated-cross {
+    transform: rotateZ(-90deg);
+}
+
+article.expanded {
+    height: 700px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<article>
+    <div id="close-button">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+</article>
+
+</body>
+
+<script>
+    document.getElementById('close-button').addEventListener("click", function () {
+        document.querySelector('#close-button i').classList.toggle('rotated-cross');
+        document.querySelector('article').classList.toggle('expanded');
+    })
+</script>
+</html>

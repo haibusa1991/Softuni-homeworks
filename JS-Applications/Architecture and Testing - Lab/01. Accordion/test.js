@@ -6,7 +6,7 @@ let browser, page;
 describe('E2E tests', function () {
     this.timeout(6000);
     before(async () => {
-        browser = await chromium.launch({ handless: false, slowMo: 500 });
+        browser = await chromium.launch({ headless: false, slowMo: 500 });
     });
     after(async () => {
         await browser.close();
@@ -21,7 +21,7 @@ describe('E2E tests', function () {
     it('load static page', async () => {
         await page.goto('http://127.0.0.1:8080/index.html');
 
-        const content = await page.textContent('.accordion .head span');
+        const content = await page.inputValue('.accordion .head span');
         expect(content).to.contains('Scalable Vector Graphics');
     });
 

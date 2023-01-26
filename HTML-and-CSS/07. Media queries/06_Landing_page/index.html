@@ -1,10 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/hamburger.js"></script>
 </head>
 <body>
-$END$
+
+<div id="underlay"></div>
+<div id="hamburger-menu-overlay"></div>
+
+<div id="back-to-top">
+    <a href="#header">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+</div>
+
+<div class="content-wrapper">
+    <header id="header">
+        <div class="logo">
+            <p>Purple Spider</p>
+            <p class="subtitle">The last Web Agency you will ever need</p>
+        </div>
+
+        <div id="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+            <p>Menu</p>
+        </div>
+
+        <div id="hamburger-menu-contents" class="">
+            <ul role="list">
+                <li><a class="nav-link" href="#header">Home</a></li>
+                <li><a class="nav-link" href="#testimonials">About us</a></li>
+                <li><a class="nav-link" href="#">Services</a></li>
+                <li><a class="nav-link" href="#">Blog</a></li>
+                <li><a class="nav-link" href="#footer">Contacts</a></li>
+            </ul>
+        </div>
+
+        <nav id="nav">
+            <ul role="list">
+                <li><a class="nav-link" href="#header">Home</a></li>
+                <li><a class="nav-link" href="#testimonials">About us</a></li>
+                <li><a class="nav-link" href="#">Services</a></li>
+                <li><a class="nav-link" href="#">Blog</a></li>
+                <li><a class="nav-link" href="#footer">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="slogan">
+            <div>
+                <h2>Need a website?</h2>
+                <p>We do amazingly futuristic stuff using the same tools everyone has. We are so unique and awesome we
+                    didn't spend money on marketing gurus or copywriters!</p>
+                <button class="button">Tell us about your project</button>
+            </div>
+            <i class="fa-solid fa-earth-americas"></i>
+        </div>
+
+        <h2>Our Team</h2>
+        <div class="small-separator"></div>
+
+        <div class="team">
+            <section class="dev-card">
+                <img src="https://media.istockphoto.com/photos/smiling-suit-man-picture-id649733886" alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name">Totally Not'Bossy</p>
+                    <p class="title">CTO</p>
+                    <p class="info">Smart dude, geeky, knows his stuff! Nothing else.</p>
+                </div>
+            </section>
+
+            <section class="dev-card">
+                <img src="https://cdn6.dissolve.com/p/D430_49_188/D430_49_188_1200.jpg" alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name"> Sun Tzu</p>
+                    <p class="title"> Sales</p>
+                    <p class="info"> Very aggressive! Results driven.</p>
+                </div>
+            </section>
+
+            <section class="dev-card">
+                <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name">Genghis Khan</p>
+                    <p class="title">CEO</p>
+                    <p class="info">Drinks a lot. Loves meetings!</p>
+                </div>
+            </section>
+
+            <section class="dev-card">
+                <img src="https://st4.depositphotos.com/1049680/20109/i/950/depositphotos_201090718-stock-photo-handsome-middle-age-man-happy.jpg"
+                     alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name">Some Guy</p>
+                    <p class="title">SEO Optimisation</p>
+                    <p class="info">We are not sure what he does.</p>
+                </div>
+            </section>
+
+            <section class="dev-card">
+                <img src="https://www.dunn-orthodontics.com/wp-content/uploads/2019/02/man-smiling-stock.jpg"
+                     alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name">Generic Dude</p>
+                    <p class="title">Front End</p>
+                    <p class="info">Cares too much about useless things.</p>
+                </div>
+            </section>
+
+            <section class="dev-card">
+                <img src="https://c8.alamy.com/comp/BJGF9K/man-looking-unamused-BJGF9K.jpg" alt="face picture">
+                <div class="dev-card__info-wrapper">
+                    <p class="name">Nice guy</p>
+                    <p class="title">Lead developer</p>
+                    <p class="info">Often complains of being tired.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="testimonials">
+
+        <section class="subscribe">
+            <h2>Sign-up to our newsletter</h2>
+            <div class="small-separator"></div>
+            <div class="email-wrapper">
+                <input type="text">
+                <button class="button">Subscribe</button>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="small-separator"></div>
+            <div class="team">
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+                <section class="dev-card testimonial">
+                    <img src="https://thumbs.dreamstime.com/b/man-suit-16486313.jpg" alt="face picture">
+                    <div class="dev-card__info-wrapper">
+                        <p class="name">Genghis Khan</p>
+                        <p class="title">Mongolian emperor</p>
+                        <p class="info testimonial">The most amazingly professional and absolutely great people I have
+                            had the pleasure to work with on the face of the earth.</p>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+    </section>
+
+    <footer id="footer">
+        <div class="slogan">
+            <h2>Purple Spider</h2>
+            <p>We are the best web gurus you will ever have the pleasure to encounter. We are amazing!</p>
+        </div>
+
+        <div class="sitemap">
+            <h4>Sitemap</h4>
+            <ul role="list">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contacts</li>
+                <li>Privacy policy</li>
+                <li>About us</li>
+                <li>Blog</li>
+                <li>Terms and conditions</li>
+            </ul>
+        </div>
+
+        <div class="contacts">
+            <h4>Contacts</h4>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>0700 12 345</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <p>office@purplespider.bg</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-clock"></i>
+                <p>Monday - Friday: 09:00 - 18:00</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <p>Sofia,<br>
+                    28 Some Place Str.<br>
+                    Floor 1
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+
 </body>
 </html>

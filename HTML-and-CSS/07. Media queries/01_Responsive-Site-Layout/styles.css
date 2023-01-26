@@ -1,6 +1,6 @@
-body *{
+body * {
     border-radius: 3px;
-    background: rgb(181,216,255);
+    background: rgb(181, 216, 255);
     padding: 5px 10px;
 }
 
@@ -9,7 +9,7 @@ header {
     vertical-align: center;
 }
 
-aside ul{
+aside ul {
     list-style-type: none;
     margin: 0;
     padding: 5px;
@@ -18,7 +18,7 @@ aside ul{
 aside ul li a {
     display: block;
     padding: 5px 0;
-    color: rgb(86,40,129);
+    color: rgb(86, 40, 129);
     text-decoration: none;
 }
 
@@ -28,12 +28,32 @@ body {
     "header header"
     "aside main"
     "footer footer";
-        grid-template-columns: 100px auto;
+    grid-template-columns: 100px auto;
     gap: 10px;
 }
 
-header {grid-area: header}
-aside {grid-area: aside}
-main {grid-area: main}
-footer {grid-area: footer
+@media screen and (max-width: 500px) {
+    body {
+        grid-template-areas:
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+    }
+}
+
+header {
+    grid-area: header
+}
+
+aside {
+    grid-area: aside
+}
+
+main {
+    grid-area: main
+}
+
+footer {
+    grid-area: footer
 }

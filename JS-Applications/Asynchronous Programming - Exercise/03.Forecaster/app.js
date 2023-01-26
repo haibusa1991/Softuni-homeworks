@@ -5,7 +5,7 @@ function attachEvents() {
 async function onClick() {
     let location = document.getElementById('location').value;
 
-    let locationData = await((await fetch(`http://localhost:3030/jsonstore/forecaster/locations`)).json());
+    let locationData = await ((await fetch(`http://localhost:3030/jsonstore/forecaster/locations`)).json());
 
     let code = getLocationCode(locationData, location);
     if (code === null) {
@@ -40,15 +40,14 @@ async function setTodayWeather(code) {
     forecastDiv.classList.add('forecasts');
     document.getElementById('current').appendChild(forecastDiv)
 
-    let symbolSpan = getSpan('condition', icons[condition.toLowerCase()]);
-    symbolSpan.classList.add('symbol');
+    let symbolSpan = getSpan(icons[condition.toLowerCase()], 'condition', 'symbol');
     forecastDiv.appendChild(symbolSpan);
 
-    let forecastSpan = getSpan('condition', '');
+    let forecastSpan = getSpan('','condition');//try me
     forecastDiv.appendChild(forecastSpan);
-    forecastSpan.appendChild(getSpan('forecast-data', locationName));
-    forecastSpan.appendChild(getSpan('forecast-data', `${low}${icons["degrees"]}/${high}${icons["degrees"]}`));
-    forecastSpan.appendChild(getSpan('forecast-data', condition));
+    forecastSpan.appendChild(getSpan(locationName, 'forecast-data'));
+    forecastSpan.appendChild(getSpan(`${low}${icons["degrees"]}/${high}${icons["degrees"]}`, 'forecast-data'));
+    forecastSpan.appendChild(getSpan(condition, 'forecast-data'));
 }
 
 async function setForecastWeather(code) {
@@ -62,10 +61,10 @@ async function setForecastWeather(code) {
     upcomingDiv.appendChild(forecastInfo);
 
     for (let day of weatherForecastData.forecast) {
-        let upcoming = getSpan('upcoming', '');
-        upcoming.appendChild(getSpan('symbol', icons[day.condition.toLowerCase()]));
-        upcoming.appendChild(getSpan('forecast-data', `${day.low}${icons["degrees"]}/${day.high}${icons["degrees"]}`));
-        upcoming.appendChild(getSpan('forecast-data', day.condition));
+        let upcoming = getSpan('', 'upcoming');
+        upcoming.appendChild(getSpan(icons[day.condition.toLowerCase()], 'symbol'));
+        upcoming.appendChild(getSpan(`${day.low}${icons["degrees"]}/${day.high}${icons["degrees"]}`, 'forecast-data'));
+        upcoming.appendChild(getSpan(day.condition, 'forecast-data'));
         forecastInfo.appendChild(upcoming);
     }
 
@@ -76,9 +75,9 @@ function onError() {
     document.getElementById('current').querySelector('div').textContent = 'Error';
 }
 
-function getSpan(spanClass, contents) {
+function getSpan(contents, ...spanClasses) {
     let span = document.createElement('span');
-    span.classList.add(spanClass);
+    spanClasses.forEach(e => span.classList.add(e))
     span.innerHTML = contents;
     return span;
 }

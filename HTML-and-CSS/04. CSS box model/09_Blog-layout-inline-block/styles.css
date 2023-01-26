@@ -1,0 +1,23 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    width: 95%;
+    background-color: rgb(238,238,238);
+    color: rgb(51,51,51);
+}
+
+article {
+    float: left;
+    width:70%
+}
+
+img {
+    width: 100%
+}
+
+aside {
+    width: 30%;
+    float: right;
+}

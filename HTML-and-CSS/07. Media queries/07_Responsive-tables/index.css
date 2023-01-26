@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "style-table.css";
+@import "table.css";
 
 :root {
     --font-size-mobile: 10px;

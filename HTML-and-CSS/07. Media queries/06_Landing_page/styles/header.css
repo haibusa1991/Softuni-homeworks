@@ -1,0 +1,121 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+    padding: 0 var(--side-padding);
+    height: 3.75rem;
+    overflow: hidden;
+    margin-bottom: 64px;
+}
+
+
+#header .logo p:first-child {
+    color: var(--clr-main);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+#header .logo p.subtitle {
+    font-family: Montserrat, sans-serif;
+    color: var(--clr-gray-text);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 9px;
+    text-align: center;
+}
+
+#nav {
+    display: none;
+    /*width: 65%;*/
+    width: 510px;
+}
+
+#nav ul {
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+
+#nav ul li {
+    width: 25%;
+    padding: 0 0.25rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0.125rem 0.5rem;
+    color: var(--clr-black-text);
+}
+
+#nav .nav-link:hover {
+    color: var(--clr-main);
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+#hamburger-menu {
+    display: flex;
+    align-items: center;
+}
+
+#hamburger-menu:hover {
+    color: var(--clr-main);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+#hamburger-menu i {
+    padding: 0 8px;
+}
+
+#hamburger-menu-contents {
+    display: flex;
+    position: fixed;
+    width: 0;
+    right: 0;
+    top: 5rem;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+}
+
+#hamburger-menu-contents.active-menu {
+    z-index: 100;
+    opacity: 1;
+    width: 100%;
+}
+
+#hamburger-menu-contents ul {
+    width: 100%;
+}
+
+#hamburger-menu-contents ul li {
+    text-align: center;
+    margin: 6px 0;
+}
+
+#hamburger-menu-contents ul li a {
+    color: var(--clr-white);
+    border-top: 2px solid var(--clr-black-text);
+    border-bottom: 2px solid var(--clr-black-text);
+    /*background-color: var(--clr-main-transparent);*/
+    background-color: var(--clr-main);
+    }
+
+#hamburger-menu-contents ul li a {
+    display: block;
+    padding: 2px;
+    margin: 0;
+}
+
+
+@media screen and (min-width: 756px) {
+    #hamburger-menu {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+}

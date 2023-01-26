@@ -1,87 +1,82 @@
-#table-wrapper {
-    display: flex;
-    flex-direction: column;
-}
 
-
-#table-wrapper .header {
+.header {
     display: flex;
     background-color: var(--color-dark-gray);
     color: var(--color-white);
     width: 100%;
 }
 
-#table-wrapper .header p {
+.header p {
     width: 100%;
     text-align: center;
     border-bottom: var(--table-border);
     border-left: var(--table-border);
 }
 
-#table-wrapper .header p:last-of-type {
+.header p:last-of-type {
     border-right: var(--table-border);
 }
 
-#table-wrapper div.row {
+div.row {
     display: flex;
     width: 100%;
     border-bottom: var(--table-border);
 }
 
-#table-wrapper div.row p {
+div.row p {
     width: 33.33%;
     text-align: center;
     border-left: var(--table-border);
 }
 
-#table-wrapper div.row p:last-of-type {
+div.row p:last-of-type {
     border-right: var(--table-border);
 }
 
-#table-wrapper .row .row-title {
+.row .row-title {
     display: none;
     font-weight: 600;
     padding-left: 0.5rem;
     padding-right: 1rem;
 }
 
-#table-wrapper div.row:nth-of-type(even) {
+div.row:nth-of-type(even) {
     background-color: var(--color-light-gray);
 }
 
-#table-wrapper div.row:nth-of-type(odd) {
+div.row:nth-of-type(odd) {
     background-color: var(--color-white);
 }
 
 @media screen and (max-width: 425px) {
-    #table-wrapper .header {
+    .header {
         display: none;
     }
 
-    #table-wrapper div.row p {
+    div.row p {
         border-top: var(--table-border);
     }
 
-    #table-wrapper div.row {
+    div.row {
         flex-direction: column;
         border-bottom: unset;
         border-right: var(--table-border);
     }
 
-    #table-wrapper div.row:last-of-type {
+    div.row:last-of-type {
         border-bottom: var(--table-border);
     }
 
-    #table-wrapper div.row .row-title {
+    div.row .row-title {
         display: inline;
     }
 
-    #table-wrapper div.row p {
+    div.row p {
         text-align: left;
         width: 100%;
     }
 
-    #table-wrapper div.row p:last-of-type {
+    div.row p:last-of-type {
         border-right: unset;
     }
 }

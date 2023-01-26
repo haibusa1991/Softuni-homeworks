@@ -1,0 +1,127 @@
+.button {
+    padding: 6px 16px;
+    border: 2px solid var(--clr-black-text);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.small-separator {
+    content: "";
+    width: 6em;
+    height: 3px;
+    background-color: var(--clr-black-text);
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team .dev-card {
+    padding: 0 20px;
+    margin-bottom: 4em;
+    width: 50%;
+    height: 15em;
+    font-size: var(--font-size-mobile);
+}
+
+.team .dev-card.testimonial {
+    height: 20em;
+}
+
+@media screen and (min-width: 540px) {
+    .team .dev-card {
+        font-size: var(--font-size-tablet);
+    }
+}
+
+@media screen and (min-width: 756px) {
+    .team .dev-card {
+        font-size: var(--font-size-desktop);
+        width: 30%;
+    }
+}
+
+.team .dev-card img {
+    padding: 0;
+    margin: 0 auto 1em;
+    border-radius: 100%;
+    height: 8em;
+    width: 8em;
+    max-width: 8em;
+    object-fit: cover;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.team .dev-card img {
+    outline: 3px solid rgba(255, 255, 255, .5);
+    outline-offset: -3px;
+}
+
+.team .dev-card__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.team .dev-card p.name {
+    font-weight: 700;
+}
+
+.team .dev-card p.title {
+    margin-bottom: 0.5em;
+}
+
+.team .dev-card p.info {
+    margin-bottom: 1em;
+    font-style: oblique;
+}
+
+.team .dev-card p.info.testimonial {
+    order: -1;
+}
+
+#back-to-top a {
+    font-size: var(--font-size-mobile);
+}
+
+#back-to-top a {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: var(--clr-main-transparent);
+    font-size: 1.5em;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#back-to-top a i {
+    padding: 0;
+    color: var(--clr-black-text);
+    line-height: 1;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 540px) {
+    #back-to-top{
+        font-size: calc(var(--font-size-tablet) * 1.5);
+    }
+}
+
+@media screen and (min-width: 756px) {
+    #back-to-top {
+        font-size: calc(var(--font-size-desktop) * 1.5);
+    }
+}

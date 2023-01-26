@@ -11,8 +11,12 @@
 body {
     background-color: rgb(238, 238, 238);
     padding: 0;
-    width: 1440px;
+    /*width: 900px;*/
     margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
 }
 
 .page {
@@ -65,7 +69,7 @@ header nav ul {
 }
 
 main {
-    width: 70%;
+    /*width: 70%;*/
     margin-left: 24px;
 }
 
@@ -98,14 +102,52 @@ article section {
     font-family: Georgia, serif;
     color: gray;
     display: inline-block;
-    height: 7rem;
+    height: 10rem;
     float: right;
     margin: 0 12px;
     font-style: italic;
     width: 40%;
     border-left: 5px solid gray;
+    padding-left: 16px;
 }
 
 .quote p {
     text-align: right;
 }
+
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    p {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    p {
+        font-size: 23px;
+    }
+}
+

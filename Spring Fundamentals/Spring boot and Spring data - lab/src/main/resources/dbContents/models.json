@@ -1,0 +1,92 @@
+[
+  {
+    "name": "156",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2002,
+    "created": "2023-01-27T11:54:02.360573300",
+    "modified": "2023-01-27T11:54:02.360573300",
+    "brand": "Alfa Romeo"
+  },
+  {
+    "name": "159",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 2005,
+    "endYear": 2012,
+    "created": "2023-01-25T11:54:02.360573300",
+    "modified": "2023-01-25T11:54:02.360573300",
+    "brand": "Alfa Romeo"
+  },
+  {
+    "name": "Giulia",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 2015,
+    "endYear": 2022,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "Alfa Romeo"
+  },
+  {
+    "name": "316i",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "BMW"
+  },
+  {
+    "name": "325i",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "BMW"
+  },
+  {
+    "name": "318i",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "BMW"
+  },
+  {
+    "name": "Sandero",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "Dacia"
+  },
+  {
+    "name": "Logan",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "Dacia"
+  },
+  {
+    "name": "Duster",
+    "category": "CAR",
+    "imageUlr": "model image goes here",
+    "startYear": 1995,
+    "endYear": 2000,
+    "created": "2023-01-21T11:54:02.360573300",
+    "modified": "2023-01-21T11:54:02.360573300",
+    "brand": "Dacia"
+  }
+]

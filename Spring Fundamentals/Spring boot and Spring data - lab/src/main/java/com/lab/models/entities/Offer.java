@@ -1,10 +1,9 @@
 package com.lab.models.entities;
 
-import com.lab.models.enumeration.Engine;
-import com.lab.models.enumeration.Transmision;
+import com.lab.models.enumeration.Engines;
+import com.lab.models.enumeration.Transmissions;
 import jakarta.persistence.*;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Year;
 import java.util.UUID;
@@ -23,7 +22,7 @@ public class Offer {
 
     @Column(name = "engine")
     @Enumerated(value = EnumType.STRING)
-    private Engine engine;
+    private Engines engines;
 
     @Column(name = "imageUrl")
     private String imageUrl;
@@ -36,7 +35,7 @@ public class Offer {
 
     @Column(name = "transmission ")
     @Enumerated(value = EnumType.STRING)
-    private Transmision transmission;
+    private Transmissions transmission;
 
     @Column(name = "year")
     private Year year;

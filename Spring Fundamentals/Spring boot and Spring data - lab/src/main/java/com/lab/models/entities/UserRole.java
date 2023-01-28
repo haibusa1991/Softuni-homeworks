@@ -1,6 +1,6 @@
 package com.lab.models.entities;
 
-import com.lab.models.enumeration.Role;
+import com.lab.models.enumeration.Roles;
 import jakarta.persistence.*;
 
 import java.util.UUID;
@@ -16,5 +16,13 @@ public class UserRole {
 
     @Column(name = "user_role")
     @Enumerated(value = EnumType.STRING)
-    private Role userRole;
+    private Roles userRole;
+
+    public Roles getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(Roles userRole) {
+        this.userRole = userRole;
+    }
 }

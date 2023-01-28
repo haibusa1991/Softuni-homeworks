@@ -50,4 +50,9 @@ public class Brand {
     public void setModified(LocalDateTime modified) {
         this.modified = modified;
     }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }

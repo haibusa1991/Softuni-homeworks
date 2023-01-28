@@ -1,6 +1,6 @@
 package com.lab.models.enumeration;
 
-public enum Transmision {
+public enum Transmissions {
     MANUAL,
     AUTOMATIC
 }

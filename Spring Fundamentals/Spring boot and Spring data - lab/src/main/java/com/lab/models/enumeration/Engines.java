@@ -1,6 +1,6 @@
 package com.lab.models.enumeration;
 
-public enum Engine {
+public enum Engines {
     GASOLINE,
     DIESEL,
     ELECTRIC,

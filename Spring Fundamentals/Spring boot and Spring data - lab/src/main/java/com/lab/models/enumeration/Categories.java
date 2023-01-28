@@ -1,6 +1,6 @@
 package com.lab.models.enumeration;
 
-public enum Category {
+public enum Categories {
     CAR,
     BUSS,
     TRUCK,

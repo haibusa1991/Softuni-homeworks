@@ -1,0 +1,46 @@
+[
+  {
+    "isActive": "true",
+    "created" : "2023-01-27T11:54:02.360573300",
+    "firstName" : "Ivan",
+    "imageUrl" : "image goes here",
+    "lastName" : "Ivanov",
+    "modified" : "2023-01-27T11:54:02.360573300",
+    "password" : "password",
+    "username" : "ivanivanov",
+    "role" : "USER"
+  },
+  {
+    "isActive": "true",
+    "created" : "2023-01-27T11:54:02.360573300",
+    "firstName" : "Dragan",
+    "imageUrl" : "image goes here",
+    "lastName" : "Draganov",
+    "modified" : "2023-01-27T11:54:02.360573300",
+    "password" : "password",
+    "username" : "dragandragan",
+    "role" : "USER"
+  },
+  {
+    "isActive": "true",
+    "created" : "2023-01-27T11:54:02.360573300",
+    "firstName" : "Petkan",
+    "imageUrl" : "image goes here",
+    "lastName" : "Petkanov",
+    "modified" : "2023-01-27T11:54:02.360573300",
+    "password" : "password",
+    "username" : "petp",
+    "role" : "USER"
+  },
+  {
+    "isActive": "true",
+    "created" : "2023-01-27T11:54:02.360573300",
+    "firstName" : "Bash",
+    "imageUrl" : "image goes here",
+    "lastName" : "Maistora",
+    "modified" : "2023-01-27T11:54:02.360573300",
+    "password" : "password",
+    "username" : "4orbadjiqta",
+    "role" : "ADMIN"
+  }
+]

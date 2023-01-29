@@ -1,11 +1,11 @@
 package com.lab.repositories;
 
-import com.lab.models.entities.UserRole;
+import com.lab.models.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
 @Repository
-public interface UserRolesRepository extends JpaRepository<UserRole, UUID> {
+public interface UserRepository extends JpaRepository<User, UUID> {
 }

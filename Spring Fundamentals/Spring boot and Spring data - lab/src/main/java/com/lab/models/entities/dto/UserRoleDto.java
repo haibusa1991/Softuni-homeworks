@@ -1,13 +1,13 @@
 package com.lab.models.entities.dto;
 
 public class UserRoleDto {
-    private String userRole;
+    private String role;
 
-    public String getUserRole() {
-        return userRole;
+    public String getRole() {
+        return role;
     }
 
-    public void setUserRole(String userRole) {
-        this.userRole = userRole;
+    public void setRole(String role) {
+        this.role = role;
     }
 }

@@ -1,8 +1,8 @@
 [
   {
-    "userRole": "user"
+    "role": "USER"
   },
   {
-    "userRole": "admin"
+    "role": "ADMIN"
   }
 ]

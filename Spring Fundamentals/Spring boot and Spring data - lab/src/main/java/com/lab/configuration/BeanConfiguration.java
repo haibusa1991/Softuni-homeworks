@@ -3,8 +3,10 @@ package com.lab.configuration;
 import com.google.gson.*;
 import com.lab.models.entities.Brand;
 import com.lab.models.entities.Model;
+import com.lab.models.entities.User;
 import com.lab.models.entities.dto.BrandDto;
 import com.lab.models.entities.dto.ModelDto;
+import com.lab.models.entities.dto.UserDto;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
@@ -39,6 +41,10 @@ public class BeanConfiguration {
         mapper.createTypeMap(ModelDto.class, Model.class)
                 .addMappings(m -> m.using(localDateTimeConverter).map(ModelDto::getCreated, Model::setCreated))
                 .addMappings(m -> m.using(localDateTimeConverter).map(ModelDto::getModified, Model::setModified));
+
+        mapper.createTypeMap(UserDto.class, User.class)
+                .addMappings(m -> m.using(localDateTimeConverter).map(UserDto::getCreated, User::setCreated))
+                .addMappings(m -> m.using(localDateTimeConverter).map(UserDto::getModified, User::setModified));
 
         return mapper;
 

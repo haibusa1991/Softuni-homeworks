@@ -14,15 +14,15 @@ public class UserRole {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID userRoleId;
 
-    @Column(name = "user_role")
+    @Column(name = "role")
     @Enumerated(value = EnumType.STRING)
-    private Roles userRole;
+    private Roles role;
 
-    public Roles getUserRole() {
-        return userRole;
+    public Roles getRole() {
+        return role;
     }
 
-    public void setUserRole(Roles userRole) {
-        this.userRole = userRole;
+    public void setRole(Roles userRole) {
+        this.role = userRole;
     }
 }

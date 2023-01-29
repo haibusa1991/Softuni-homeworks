@@ -9,5 +9,5 @@ import java.util.UUID;
 @Repository
 public interface BrandRepository extends JpaRepository<Brand, UUID> {
 
-    public Brand getBrandByName(String name);
+    Brand getBrandByName(String name);
 }

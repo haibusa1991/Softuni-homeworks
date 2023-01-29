@@ -1,47 +1,16 @@
-package com.lab.models.entities;
+package com.lab.models.entities.dto;
 
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Size;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.UUID;
-
-@Entity
-@Table(name = "users")
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "id")
-    private UUID userId;
-
-    @Column(name = "username")
+public class UserDto {
     private String username;
-
-    @Column(name = "password")
     private String password;
-
-    @Column(name = "first_name")
     private String firstName;
-
-    @Column(name = "last_name")
     private String lastName;
-
-    @Column(name = "is_active")
     private boolean isActive;
-
-    @ManyToOne
-    @JoinColumn(name = "role_id")
-    private UserRole role;
-
-    @Column(name = "imageUrl")
+    private String role;
     private String imageUrl;
-
-    @Column(name = "created")
-    private LocalDateTime created;
-
-    @Column(name = "modified")
-    private LocalDateTime modified;
+    private String created;
+    private String modified;
 
     public String getUsername() {
         return username;
@@ -83,11 +52,11 @@ public class User {
         isActive = active;
     }
 
-    public UserRole getRole() {
+    public String getRole() {
         return role;
     }
 
-    public void setRole(UserRole role) {
+    public void setRole(String role) {
         this.role = role;
     }
 
@@ -99,19 +68,19 @@ public class User {
         this.imageUrl = imageUrl;
     }
 
-    public LocalDateTime getCreated() {
+    public String getCreated() {
         return created;
     }
 
-    public void setCreated(LocalDateTime created) {
+    public void setCreated(String created) {
         this.created = created;
     }
 
-    public LocalDateTime getModified() {
+    public String getModified() {
         return modified;
     }
 
-    public void setModified(LocalDateTime modified) {
+    public void setModified(String modified) {
         this.modified = modified;
     }
 }

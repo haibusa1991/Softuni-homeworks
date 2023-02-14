@@ -1,0 +1,41 @@
+[
+  {
+    "description": "description goes here",
+    "engine": "DIESEL",
+    "imageUrl" : "image goes here",
+    "mileage" : 123456,
+    "price" : 9800,
+    "transmission": "MANUAL",
+    "year" : 1998,
+    "created": "2023-01-27T11:54:02.360573300",
+    "modified": "2023-01-27T11:54:02.360573300",
+    "model": "316i",
+    "seller": "4orbadjiqta"
+  },
+  {
+    "description": "description goes here",
+    "engine": "GASOLINE",
+    "imageUrl" : "image goes here",
+    "mileage" : 14,
+    "price" : 80000,
+    "transmission": "AUTOMATIC",
+    "year" : 2014,
+    "created": "2023-01-27T11:54:02.360573300",
+    "modified": "2023-01-27T11:54:02.360573300",
+    "model": "Giulia",
+    "seller": "petp"
+  },
+  {
+    "description": "description goes here",
+    "engine": "GASOLINE",
+    "imageUrl" : "image goes here",
+    "mileage" : 35000,
+    "price" : 2000,
+    "transmission": "MANUAL",
+    "year" : 1995,
+    "created": "2023-01-27T11:54:02.360573300",
+    "modified": "2023-01-27T11:54:02.360573300",
+    "model": "156",
+    "seller": "dragandragan"
+  }
+]

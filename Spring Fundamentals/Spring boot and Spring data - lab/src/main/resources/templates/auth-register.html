@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-      <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>MobiLeLeLe</title>
     <link rel="stylesheet" href="/css/reset-css.css"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
@@ -14,7 +14,7 @@
 <body>
 
 <div>
-     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="/"><img alt="car picture" src="/img/car.png" class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto col-12 justify-content-between">
                 <li class="nav-item"
-                    >
+                >
                     <a class="nav-link" href="/brands/all">All Brands</a>
                 </li>
                 <li class="nav-item">
@@ -52,14 +52,14 @@
                         <a class="nav-link" href="/users/logout">Logout</a>
                     </div>
                 </li>
-                
-                    <li class="nav-item">
-                        <a class="nav-link" href="/users/register">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/users/login">Login</a>
-                    </li>
-                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/users/register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/users/login">Login</a>
+                </li>
+
             </ul>
         </div>
     </nav>
@@ -67,13 +67,16 @@
 
 <div class="container">
     <h2 class="text-center text-white">Register User</h2>
-    <form method="POST" 
+    <form method="POST" th:action="@{/users/register}"
           class="main-form mx-auto col-md-8 d-flex flex-column justify-content-center">
         <div class="row">
             <div class="form-group col-md-6 mb-3">
                 <label for="firstName" class="text-white font-weight-bold">First Name</label>
-                <input  id="firstName" type="text" min="2" max="20" class="form-control"
-                       placeholder="First name"/>
+                <input id="firstName" type="text" min="2" max="20" class="form-control"
+                       placeholder="First name"
+                       name="firstName"
+                       th:value="${formData.firstName}"/>
+<!--                <p th:if="${formErrors.getErrors}" class="errors alert alert-danger">-->
                 <p class="errors alert alert-danger">
                     First name is required.
                 </p>
@@ -81,7 +84,9 @@
             <div class="form-group col-md-6 mb-3">
                 <label for="lastName" class="text-white font-weight-bold">Last Name</label>
                 <input id="lastName" type="text" min="2" max="20" class="form-control"
-                       placeholder="First name"/>
+                       placeholder="Last name"
+                       name="lastName"
+                       th:value="${formData.lastName}"/>
                 <p class="errors alert alert-danger">
                     Last name is required.
                 </p>
@@ -91,7 +96,9 @@
             <div class="form-group col-md-6 mb-3">
                 <label for="username" class="text-white font-weight-bold">Username</label>
                 <input id="username" type="text" min="2" max="20" class="form-control"
-                       placeholder="First name"/>
+                       placeholder="Username"
+                       name="username"
+                th:value="${formData.username}"/>
                 <p class="errors alert alert-danger">
                     Username is required.
                 </p>
@@ -99,7 +106,8 @@
             <div class="form-group col-md-6 mb-3">
                 <label for="password" class="text-white font-weight-bold">Password</label>
                 <input id="password" type="password" min="2" max="20" class="form-control"
-                       placeholder="Password"/>
+                       placeholder="Password"
+                       name="password"/>
                 <p class="errors alert alert-danger">
                     Password is required.
                 </p>
@@ -107,9 +115,8 @@
         </div>
         <div class="form-group">
             <label class="text-center text-white font-weight-bold" for="roles">Roles</label>
-            <select  id="roles" class="form-control" multiple>
-                <option>
-                </option>
+            <select id="roles" class="form-control" multiple name="role">
+                <option th:each="role : ${formData.getRoles}" th:text="${role.toString}"></option>
             </select>
             <p class="errors alert alert-danger">
                 Selecting a role is required.
@@ -127,7 +134,7 @@
 </div>
 
 <div>
-     <footer> </footer>
+    <footer></footer>
 </div>
 
 </body>

@@ -1,23 +1,25 @@
-package com.lab.configuration;
+package com.lab;
 
 import com.google.gson.*;
+import com.lab.models.RegistrationForm;
 import com.lab.models.entities.Brand;
 import com.lab.models.entities.Model;
+import com.lab.models.entities.Offer;
 import com.lab.models.entities.User;
 import com.lab.models.entities.dto.BrandDto;
 import com.lab.models.entities.dto.ModelDto;
+import com.lab.models.entities.dto.OfferDto;
 import com.lab.models.entities.dto.UserDto;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
-import java.lang.reflect.Type;
 import java.time.LocalDateTime;
 
 @Configuration
-public class BeanConfiguration {
-
+public class Beans {
 
 
     @Bean
@@ -46,7 +48,15 @@ public class BeanConfiguration {
                 .addMappings(m -> m.using(localDateTimeConverter).map(UserDto::getCreated, User::setCreated))
                 .addMappings(m -> m.using(localDateTimeConverter).map(UserDto::getModified, User::setModified));
 
-        return mapper;
+        mapper.createTypeMap(OfferDto.class, Offer.class)
+                .addMappings(m -> m.using(localDateTimeConverter).map(OfferDto::getCreated, Offer::setCreated))
+                .addMappings(m -> m.using(localDateTimeConverter).map(OfferDto::getModified, Offer::setModified));
 
+        return mapper;
+    }
+
+    @Bean
+    public RegistrationForm getRegistrationForm() {
+        return new RegistrationForm();
     }
 }

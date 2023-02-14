@@ -1,5 +1,6 @@
 package com.lab.models.entities.dto;
 
+import jakarta.persistence.Entity;
 
 public class UserDto {
     private String username;

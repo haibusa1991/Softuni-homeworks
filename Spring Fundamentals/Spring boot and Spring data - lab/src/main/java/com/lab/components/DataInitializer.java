@@ -1,19 +1,10 @@
 package com.lab.components;
 
 import com.google.gson.Gson;
-import com.lab.models.entities.Brand;
-import com.lab.models.entities.Model;
-import com.lab.models.entities.User;
-import com.lab.models.entities.UserRole;
-import com.lab.models.entities.dto.BrandDto;
-import com.lab.models.entities.dto.ModelDto;
-import com.lab.models.entities.dto.UserDto;
-import com.lab.models.entities.dto.UserRoleDto;
+import com.lab.models.entities.*;
+import com.lab.models.entities.dto.*;
 import com.lab.models.enumeration.Roles;
-import com.lab.repositories.BrandRepository;
-import com.lab.repositories.ModelRepository;
-import com.lab.repositories.UserRepository;
-import com.lab.repositories.UserRoleRepository;
+import com.lab.repositories.*;
 import com.lab.utils.FileUtils;
 import com.lab.utils.Filepaths;
 import org.modelmapper.ModelMapper;
@@ -30,6 +21,7 @@ public class DataInitializer implements CommandLineRunner {
     private final ModelRepository modelRepository;
     private final UserRoleRepository userRoleRepository;
     private final UserRepository userRepository;
+    private final OfferRepository offerRepository;
     private final Gson gson;
     private final ModelMapper mapper;
 
@@ -38,22 +30,25 @@ public class DataInitializer implements CommandLineRunner {
                            ModelRepository modelRepository,
                            UserRoleRepository userRoleRepository,
                            UserRepository userRepository,
+                           OfferRepository offerRepository,
                            Gson gson,
                            ModelMapper mapper) {
         this.brandRepository = brandRepository;
         this.modelRepository = modelRepository;
         this.userRoleRepository = userRoleRepository;
         this.userRepository = userRepository;
+        this.offerRepository = offerRepository;
         this.gson = gson;
         this.mapper = mapper;
     }
 
     @Override
     public void run(String... args) throws Exception {
-        importBrands();
-        importModels();
-        importRoles();
-        importUsers();
+//        importBrands();
+//        importModels();
+//        importRoles();
+//        importUsers();
+//        importOffers();
     }
 
 
@@ -97,6 +92,19 @@ public class DataInitializer implements CommandLineRunner {
             User user = this.mapper.map(userDto, User.class);
             user.setRole(this.userRoleRepository.getUserRoleByRole(Roles.valueOf(userDto.getRole())));
             this.userRepository.save(user);
+        }
+    }
+
+    private void importOffers() throws IOException {
+        String json = FileUtils.readFileFromDisk(Filepaths.OFFERS_FILE_PATH);
+        OfferDto[] offerDtos = gson.fromJson(json, OfferDto[].class);
+        for (OfferDto offerDto : offerDtos) {
+            Offer offer = this.mapper.map(offerDto, Offer.class);
+            User seller = this.userRepository.getUserByUsername(offerDto.getSeller());
+            Model model = this.modelRepository.getModelByName(offerDto.getModel());
+            offer.setSeller(seller);
+            offer.setModel(model);
+            this.offerRepository.save(offer);
         }
     }
 

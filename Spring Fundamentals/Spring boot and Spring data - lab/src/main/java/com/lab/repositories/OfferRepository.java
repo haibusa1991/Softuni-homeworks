@@ -1,13 +1,11 @@
 package com.lab.repositories;
 
-import com.lab.models.entities.User;
+import com.lab.models.entities.Offer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, UUID> {
-
-    User getUserByUsername(String username);
+public interface OfferRepository extends JpaRepository<Offer, UUID> {
 }

@@ -7,5 +7,9 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface UserRepo extends JpaRepository<User, UUID> {
+public interface UserRepository extends JpaRepository<User, UUID> {
+
+    User getUserByUsernameAndPassword(String username, String password);
+
+    User getUserByUsername(String username);
 }
